@@ -72,7 +72,7 @@ uint8_t LCD_u8Init(void)
 
 	uint8_t u8_timerState, u8_returnState =u8_LCD_OK ;
 	uint8_t u8_commState ;
-	static uint8_t u8_commFinished = u8_LCD_TRUE ;
+	static uint8_t u8_commFinished = u8_LCD_FALSE ;
 	if(LCD_stateInit != LCD_initializing_finished)
 	{
 		u8_returnState =u8_LCD_NOK ;
